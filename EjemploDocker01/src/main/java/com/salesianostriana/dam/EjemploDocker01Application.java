@@ -12,8 +12,8 @@ public class EjemploDocker01Application {
 	public static void main(String[] args) {
 		SpringApplication.run(EjemploDocker01Application.class, args);
 	}
-	
-	@GetMapping("/hello")
+
+	@GetMapping("/")
 	public String index() {
 		return "Hello Docker from 2DAM";
 	}
